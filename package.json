@@ -2,7 +2,7 @@
   "name": "octocat-syntax",
   "theme": "syntax",
   "version": "0.1.2",
-  "description": "Octocat syntax theme for Atom with GitHub highlighting",
+  "description": "Octocat syntax theme for Atom with GitHub flavoured highlighting",
   "keywords": [
     "syntax",
     "theme",
