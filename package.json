@@ -1,0 +1,17 @@
+{
+  "name": "octocat-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "Octocat syntax theme for Atom with GitHub highlighting",
+  "keywords": [
+    "syntax",
+    "theme",
+    "github",
+    "octocat"
+  ],
+  "repository": "https://github.com/vinkla/octocat-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  }
+}
