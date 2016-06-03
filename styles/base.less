@@ -1,0 +1,230 @@
+@import "syntax-variables";
+
+:host, atom-text-editor, atom-text-editor::shadow {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+
+  .gutter {
+    background-color: @syntax-gutter-background-color;
+    color: @syntax-gutter-text-color;
+  }
+
+  .gutter .line-number.cursor-line {
+    background-color: @syntax-gutter-background-color-selected;
+    color: @syntax-gutter-text-color-selected;
+  }
+
+  .has-selection .gutter .line-number.cursor-line {
+    background-color: @syntax-selection-color
+  }
+
+  .gutter .line-number.cursor-line-no-selection {
+    color: @syntax-gutter-text-color-selected;
+  }
+
+  .wrap-guide {
+    color: @syntax-wrap-guide-color;
+  }
+
+  .indent-guide {
+    color: @syntax-indent-guide-color;
+  }
+
+  .invisible-character {
+    color: @syntax-invisible-character-color;
+  }
+
+  .search-results .marker .region {
+    background-color: transparent;
+    border: @syntax-result-marker-color;
+  }
+
+  .search-results .marker.current-result .region {
+    border: @syntax-result-marker-color-selected;
+  }
+
+  .cursor {
+    border-color: @syntax-cursor-color;
+  }
+
+  .line-number.cursor-line-no-selection, .line.cursor-line {
+    background-color: @syntax-highlight-line-color;
+  }
+
+  .line.highlight-line {
+    background: @syntax-highlight-line-color !important;
+  }
+
+  .has-selection .line.highlight-line {
+    background: transparent !important;
+  }
+
+  .highlights .highlight-selected .region {
+    background: transparent;
+    border-color: @syntax-highlight-selected-color;
+    border-radius: 2px;
+  }
+
+  .highlights .selection .region {
+    background-color: @syntax-selection-color;
+  }
+
+  .comment {
+    color: #969896;
+  }
+
+  .constant, .variable.other.constant {
+    color: #FF794C;
+  }
+
+  .keyword.operator.symbole, .keyword.other.mark {
+  }
+
+  .entity, .entity.name {
+    color: #86A25C;
+  }
+
+  .variable.parameter.function {
+    color: #CCCCCC;
+  }
+
+  .entity.name.tag {
+    color: #9C5CA3;
+  }
+
+  .keyword {
+    color: #58E2A2;
+  }
+
+  .storage, .storage.type {
+    color: #58E2A2;
+  }
+
+  .storage.modifier.package, .storage.modifier.import, .storage.type.java {
+    color: #CCCCCC;
+  }
+
+  .string, .punctuation.definition.string, .string .punctuation.section.embedded .source {
+    color: #E7C96E;
+  }
+
+  .string.unquoted.import.ada {
+  }
+
+  .support {
+    color: #FF794C;
+  }
+
+  .meta.property-name {
+    color: #FF794C;
+  }
+
+  .variable {
+    color: #CCCCCC;
+  }
+
+  .variable.other {
+    color: #CCCCCC;
+  }
+
+  .invalid.deprecated {
+    color: #4AD5E2;
+  }
+
+  .invalid.illegal {
+    font-style: italic;
+    text-decoration: underline;
+    color: #070707;
+    background-color: #4AD5E2;
+  }
+
+  .string .source {
+    color: #CCCCCC;
+  }
+
+  .string .variable {
+    color: #FF794C;
+  }
+
+  .string.regexp {
+    color: #E7C96E;
+  }
+
+  .string.regexp.character-class, .string.regexp .constant.character.escape, .string.regexp .source.ruby.embedded, .string.regexp .string.regexp.arbitrary-repitition {
+    color: #E7C96E;
+  }
+
+  .string.regexp .constant.character.escape {
+    font-weight: bold;
+    color: #9C5CA3;
+  }
+
+  .support.constant {
+    color: #FF794C;
+  }
+
+  .support.variable {
+    color: #FF794C;
+  }
+
+  .meta.module-reference {
+    color: #FF794C;
+  }
+
+  .markup.list {
+    color: #96C5E8;
+  }
+
+  .markup.heading, .markup.heading .entity.name {
+    font-weight: bold;
+    color: #E2C17E;
+  }
+
+  .markup.quote {
+    color: #FF7F7F;
+  }
+
+  .markup.italic {
+    font-style: italic;
+    color: #CCCCCC;
+  }
+
+  .markup.bold {
+    font-weight: bold;
+    color: #CCCCCC;
+  }
+
+  .markup.raw {
+    color: #FF794C;
+  }
+
+  .markup.deleted, .meta.diff.header.from-file {
+    color: #42D3FF;
+    background-color: #001313;
+  }
+
+  .markup.inserted, .meta.diff.header.to-file {
+    color: #55a532;
+    background-color: #eaffea;
+  }
+
+  .meta.diff.range {
+    font-weight: bold;
+    color: #86A25C;
+  }
+
+  .meta.diff.header {
+    color: #FF794C;
+  }
+
+  .meta.separator {
+    font-weight: bold;
+    color: #E2C17E;
+  }
+
+  .meta.output {
+    color: #E2C17E;
+  }
+
+
+}
