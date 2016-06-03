@@ -2,10 +2,13 @@
   "name": "octocat-inverted-syntax",
   "theme": "syntax",
   "version": "0.0.0",
-  "description": "A short description of your syntax theme",
+  "description": "An inverted version of GitHub's Octocat theme.",
   "keywords": [
     "syntax",
-    "theme"
+    "theme",
+    "github",
+    "octocat",
+    "dark"
   ],
   "repository": "https://github.com/atom/octocat-inverted-syntax",
   "license": "MIT",
