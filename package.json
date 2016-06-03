@@ -10,7 +10,7 @@
     "octocat",
     "dark"
   ],
-  "repository": "https://github.com/atom/octocat-inverted-syntax",
+  "repository": "https://github.com/qolop/octocat-inverted-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
