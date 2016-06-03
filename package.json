@@ -1,7 +1,7 @@
 {
   "name": "octocat-inverted-syntax",
   "theme": "syntax",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An inverted version of GitHub's Octocat theme.",
   "keywords": [
     "syntax",
